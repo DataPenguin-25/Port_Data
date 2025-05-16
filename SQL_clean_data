@@ -1,0 +1,14 @@
+CREATE TABLE ports_clean AS
+SELECT
+  "Country" AS country,
+  "Port Name" AS port_name,
+  "UN Code" AS un_code,
+  "Vessels in Port" AS vessels_in_port,
+  "Departures(Last 24 Hours)" AS departures_24h,
+  "Arrivals(Last 24 Hours)" AS arrivals_24h,
+  "Expected Arrivals" AS expected_arrivals,
+  "Type" AS type,
+  "Area Local" AS area_local,
+  "Area Global" AS area_global,
+  "Also known as" AS alt_names
+FROM _Port_Data_20250516;
