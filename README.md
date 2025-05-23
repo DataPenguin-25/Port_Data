@@ -43,6 +43,12 @@ The data includes key logistics-relevant metrics like:
 	•	Traffic score metric: average of arrivals and departures over the last 24 hours.
 	•	Breakdown by local and global areas to analyze regional logistics behavior.
 	•	Clean, professional dashboard layout with KPI indicators, bar charts, and interactive filters.
+ | Congestion Ratio | Traffic Score | Interpretation                                      |
+|------------------|----------------|-----------------------------------------------------|
+| High             | Low            | Congested but low-traffic – potential inefficiency |
+| High             | High           | High activity with strain – possible bottleneck     |
+| Low              | High           | Efficient and high-performing                      |
+| Low              | Low            | Underutilized – potential for rerouting opportunities |
 
 ⸻
 
